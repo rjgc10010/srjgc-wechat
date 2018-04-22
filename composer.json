@@ -1,0 +1,22 @@
+{
+    "name": "rjgc10010/srjgc-wechat",
+    "description": "rjgcWechat",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhouxiuyan",
+            "email": "rjgc10010@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload":{
+        "files":[
+            "src/config.php"
+        ],
+        "psr-4":{
+            "SRjgcWechat\\": "src/SRjgcWechat"
+        }
+    }
+}
